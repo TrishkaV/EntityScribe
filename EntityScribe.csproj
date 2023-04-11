@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>TrishkaV.EntityScribe</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>TrishkaV</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Lightweight C# language extension to map objects and type from database reader executions, memory allocation is optimized for performance. Open source project at github.com/TrishkaV/EntityScribe</Description>
+    <Tags>Entity mapping, entity mapper, relatinship mapper, relationship mapping</Tags>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <ProjectUrl>github.com/TrishkaV/EntityScribe</ProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="docs\readme.md" Pack="true" PackagePath=""/>
+    <PackageReference Include="TrishkaV.TypeDetect" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
